@@ -6,7 +6,7 @@ import java.util.Random;
 public class zadanie1 {
     public static void main(String[] args) {
         Scanner chislo = new Scanner(System.in);
-        /*
+        
         // перевод из цельсия в фаренгейты
         System.out.print("Enter temperature in celsius - ");
         int tselsij = chislo.nextInt();
@@ -29,7 +29,6 @@ public class zadanie1 {
         System.out.println("units is "+ed);
         System.out.println("dozens is "+des);
         System.out.println("summa is "+summ);
-        */
 
         // задание со знаками года
         String[] animal = new String[]{"rat","bull","tiger","cat","dragon","snake","horse",
