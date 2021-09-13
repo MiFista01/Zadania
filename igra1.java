@@ -45,5 +45,30 @@ public class igra1 {
             }
             j++;
         }
+        
+        int j = 0;
+        while(j==0){
+            number = random.nextInt(10)+1;
+            for (int i = 0; i <5;i++){
+                System.out.print("Your number is ");
+                player = chislo.nextInt();
+                if ((player > number-3 && player < number+3) && player != number){
+                    System.out.println("This is hot");
+                }else if ((player >=1 && player <= 10) && player != number){
+                    System.out.println("This is cold");
+                }else if (player ==  number){
+                    System.out.println("This number true");
+                    break;
+                }
+                if (i == 4 && player !=  number){
+                    System.out.println("You lose, true number is "+number);
+                }
+            }
+            System.out.println("You want play again? ");
+            String answer = chislo.next();
+            if (answer.equals("no")){
+                break;
+            }
+        }
     }
 }
