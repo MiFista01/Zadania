@@ -104,5 +104,6 @@ public class zadanie1 {
         }
 
         System.out.println("Your price is "+price);
+        System.out.println("Your price is "+price);
     }
 }
