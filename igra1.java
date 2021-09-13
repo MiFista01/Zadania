@@ -1,7 +1,8 @@
 package zadania;
 import java.lang.String;
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
+
 
 public class igra1 {
     public static void main(String[] args) {
@@ -46,7 +47,7 @@ public class igra1 {
             j++;
         }
         
-        int j = 0;
+        j = 0;
         while(j==0){
             number = random.nextInt(10)+1;
             for (int i = 0; i <5;i++){
