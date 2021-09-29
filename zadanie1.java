@@ -36,8 +36,6 @@ public class zadanie1 {
         String[] element = new String[]{"wood","fire","earth","metall","water"};
         System.out.print("Enter year - ");
         Integer year = chislo.nextInt();
-        String year_str = year.toString();
-        int lenght = year_str.length()-1;
 
         if(year%12==4){
             System.out.print("Your animal is "+animal[0]);

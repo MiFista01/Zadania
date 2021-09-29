@@ -11,7 +11,9 @@ public class igra1 {
         int number;
         int player;
         number = random.nextInt(10)+1;
+        System.out.println(number);
         // игра с циклом for
+        finish:
         for (int i = 0; i <5;i++){
             System.out.print("Your number is ");
             player = chislo.nextInt();
@@ -21,7 +23,8 @@ public class igra1 {
                 System.out.println("This is cold");
             }else if (player ==  number){
                 System.out.println("This number true");
-                break;
+                System.out.println("================");
+                break finish;
             }
             if (i == 4 && player !=  number){
                 System.out.println("You lose, true number is "+number);

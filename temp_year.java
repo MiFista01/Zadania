@@ -79,7 +79,13 @@ public class temp_year {
         System.out.println("You want see all temperatures in array?");
         String answer = input.next();
         if (answer.equals("yes")){
-            System.out.println(Arrays.deepToString(year));
+            for (int i = 0; i<year.length;i++){
+                System.out.println("================================");
+                System.out.println(months[i]+":");
+                for (int j = 0; j<year[i].length;j++){
+                    System.out.println("Day - "+(j+1)+", temperatures - "+year[i][j]);
+                }
+            }
         }
     }
 }
