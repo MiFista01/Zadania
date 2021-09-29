@@ -85,7 +85,7 @@ public class temp_year {
                 for (int j = 0; j<year[i].length;j++){
                     System.out.println("Day - "+(j+1)+", temperatures - "+year[i][j]);
                 }
-            }
+            } 
         }
     }
 }

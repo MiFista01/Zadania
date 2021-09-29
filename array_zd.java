@@ -59,4 +59,4 @@ public class array_zd {
         System.out.println(average/mass_copy.length);
         //среднее число оригинала
     }
-}
+} 
